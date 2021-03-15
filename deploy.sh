@@ -168,7 +168,7 @@ f_executa_crawler(){
     f_mensagem "Inicio do crawler..."
     f_inicio
     
-    scrapy crawl fatos -s HTTPCACHED_ENABLED=1 -o ~/git/caseoncase/arquivo.json
+    scrapy crawl fatos -s HTTPCACHED_ENABLED=1 -o ~/git/caseoncase/caseOncase/arquivos/dados.json
 
     f_mensagem "Fim do processo de Crawler"
     f_fim
