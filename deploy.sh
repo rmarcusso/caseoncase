@@ -79,15 +79,15 @@ f_versao_python(){
 }
 
 f_criando_venv(){
-    # f_mensagem "Inicio do processo de criacao da env."
-    # sudo apt-get install python3-pip
+    f_mensagem "Inicio do processo de criacao da env."
+    sudo apt-get install python3-pip
 
-    # f_mensagem "Atualizando pip..."
-    # python3.7 -m pip install --upgrade pip
+    f_mensagem "Atualizando pip..."
+    python3.7 -m pip install --upgrade pip
 
-    # f_mensagem "Instalando virtualenv..."
-    # sudo apt-get install python3.7-venv 
-    # sudo apt-get install python3-venv
+    f_mensagem "Instalando virtualenv..."
+    sudo apt-get install python3.7-venv 
+    sudo apt-get install python3-venv
 
     f_mensagem "Criando Virtual Env para execucao do projeto..."
     # virtualenv ~/git/caseoncase/venv 
