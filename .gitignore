@@ -1,5 +1,6 @@
 # My ignores
 .scrapy
+.idea
 caseOncase/arquivos
 venv
 
