@@ -94,7 +94,7 @@ f_criando_venv(){
     python3.7 -m venv ~/git/caseoncase/venv
     
     f_mensagem "Atualizando pip..."
-    ~/git/caseoncase/venv/bin/pip3.7 install --upgrade pip
+    ~/git/caseoncase/venv/bin/python3.7 -m pip install --upgrade pip
 
 }
 
