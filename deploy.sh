@@ -179,7 +179,7 @@ f_executa_analise(){
     f_mensagem "Executando chamada do python que realiza a geração dos gráficos."
     cd ~/git/caseoncase/caseOncase/analise/
 
-    mkdir ~/git/caseoncase/caseOncase/analise/graficos
+    mkdir ~/git/caseoncase/caseOncase/graficos
 
     ~/git/caseoncase/venv/bin/python3.7 ~/git/caseoncase/caseOncase/analise/Analise.py
 
