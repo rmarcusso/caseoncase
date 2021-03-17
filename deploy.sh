@@ -186,6 +186,7 @@ f_executa_analise(){
 f_main(){
     f_prepara_ambiente
     f_executa_crawler
+    f_executa_analise
 }
 
 f_main
