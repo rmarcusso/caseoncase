@@ -5,13 +5,10 @@ from pathlib import Path
 class Analise(object):
     def __init__(self):
         self.arquivoDadosJson = f'{Path(__file__).parent.parent}/arquivos/dados.json'
-        self.arquivoDadosCSV = f'{Path(__file__).parent.parent}/arquivos/dados.csv'
         self.dirChart = f'{Path(__file__).parent.parent}/graficos'
 
     def convertToDataFrame(self):
         dfJson = pd.read_json(self.arquivoDadosJson)
-
-        # dfJson.to_csv(self.arquivoDadosCSV, sep=';', encoding='UTF-8')
 
         return dfJson
 
