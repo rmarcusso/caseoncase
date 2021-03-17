@@ -17,6 +17,8 @@ Ele será responsável em:
 Durante a execução do `deploy.sh`ele também:
 - Realiza o crawl;
 - Salva um arquivo.json com o resultado do crawl;
+- Executa a chamada do processo de análise dos dados executando o `Analise.py`
+- Cria gráficos na pasta `caseoncase/caseOncase/graficos`
 
 # Problemas comuns
 ### Caso haja algum problema de instalação, reexecute o `deploy.sh`.
