@@ -1,9 +1,9 @@
 # My ignores
-.scrapy
-.idea
-caseOncase/arquivos
+.scrapy/
+.idea/
+caseOncase/arquivos/
 caseOncase/graficos/*
-venv
+venv/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
