@@ -2,7 +2,6 @@
 .scrapy/
 .idea/
 caseOncase/arquivos/
-caseOncase/graficos/*.png
 venv/
 
 # Byte-compiled / optimized / DLL files
