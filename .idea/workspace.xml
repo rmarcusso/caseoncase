@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="870cb00b-e6fc-4402-8bf4-95d5d2305fc1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/caseOncase/analise/Analise.py" beforeDir="false" afterPath="$PROJECT_DIR$/caseOncase/analise/Analise.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/caseOncase/analise/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/caseOncase/analise/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/caseOncase/spiders/fatos.py" beforeDir="false" afterPath="$PROJECT_DIR$/caseOncase/spiders/fatos.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/caseOncase/spiders/fatos.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -28,17 +26,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/caseOncase/analise/Analise.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="451">
+              <caret line="134" column="55" lean-forward="true" selection-start-line="134" selection-start-column="55" selection-end-line="134" selection-end-column="55" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
-                <element signature="e#852#1174#0" />
-                <element signature="e#1205#1730#0" />
-                <element signature="e#1781#2044#0" />
-                <element signature="e#2104#3263#0" />
               </folding>
             </state>
           </provider>
@@ -46,7 +40,14 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/caseOncase/analise/Main.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -71,16 +72,16 @@
       <list>
         <option value="$PROJECT_DIR$/caseOncase/arquivos/analise.py" />
         <option value="$PROJECT_DIR$/caseOncase/arquivos/Analise.py" />
-        <option value="$PROJECT_DIR$/caseOncase/analise/Main.py" />
         <option value="$PROJECT_DIR$/caseOncase/spiders/fatos.py" />
+        <option value="$PROJECT_DIR$/caseOncase/analise/Main.py" />
         <option value="$PROJECT_DIR$/caseOncase/analise/Analise.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1358" />
     <option name="y" value="-8" />
-    <option name="width" value="699" />
+    <option name="width" value="1382" />
     <option name="height" value="754" />
   </component>
   <component name="ProjectView">
@@ -88,6 +89,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,13 +106,18 @@
               <item name="caseoncase" type="b2602c69:ProjectViewProjectNode" />
               <item name="caseoncase" type="462c0819:PsiDirectoryNode" />
               <item name="caseOncase" type="462c0819:PsiDirectoryNode" />
+              <item name="analise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caseoncase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="caseoncase" type="462c0819:PsiDirectoryNode" />
+              <item name="caseOncase" type="462c0819:PsiDirectoryNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -134,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Main">
+  <component name="RunManager" selected="Python.Analise">
     <configuration name="Analise" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="caseoncase" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,8 +186,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Main" />
         <item itemvalue="Python.Analise" />
+        <item itemvalue="Python.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +205,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="1358" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -287,9 +295,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/caseOncase/graficos/quantidadeNoticiaem2016.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/caseOncase/graficos/quantidadeNoticiaem2016.png" />
     <entry file="file://$PROJECT_DIR$/../../envs_python/env_python_37/Lib/site-packages/pandas/core/generic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -321,25 +327,8 @@
     <entry file="file://$PROJECT_DIR$/caseOncase/graficos/quantidadeNoticiaEm_2016.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/caseOncase/analise/Main.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caseOncase/analise/Analise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <element signature="e#852#1174#0" />
-            <element signature="e#1205#1730#0" />
-            <element signature="e#1781#2044#0" />
-            <element signature="e#2104#3263#0" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/caseOncase/spiders/fatos.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -347,6 +336,26 @@
           <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caseOncase/analise/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caseOncase/analise/Analise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="134" column="55" lean-forward="true" selection-start-line="134" selection-start-column="55" selection-end-line="134" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>

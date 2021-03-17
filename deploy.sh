@@ -173,15 +173,13 @@ f_executa_crawler(){
 }
 
 f_executa_analise(){
-
+    
     . ~/git/caseoncase/venv/bin/activate
 
     f_mensagem "Executando chamada do python que realiza a geração dos gráficos."
     cd ~/git/caseoncase/caseOncase/analise/
 
-    ~/git/caseoncase/venv/bin/python3.7
-
-
+    ~/git/caseoncase/venv/bin/python3.7 ~/git/caseoncase/caseOncase/analise/Analise.py
 
 }
 

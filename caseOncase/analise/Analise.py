@@ -133,3 +133,6 @@ class Analise(object):
         # Evolucao da categoria nos anos
         # Esse gráfico possue uma iteração com drilldown
         self.analiseEvolutionYearMonth(arquivo=arquivo)
+
+if __name__ == '__main__':
+    Analise().executar()
