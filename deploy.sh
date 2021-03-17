@@ -130,7 +130,7 @@ f_clone_crawler(){
 
 f_instalacao_libs(){
     local=rc
-    ~/git/caseoncase/venv/bin/python3.7 -m pip install -r requirements.txt
+    ~/git/caseoncase/venv/bin/python3.7 -m pip install -r     ~/git/caseoncase/requirements.txt
     rc=${?}
     if [[ ${rc} -ne 0 ]]; then
         f_exit "Problema na instalacao das libs necessárias"
@@ -142,9 +142,6 @@ f_prepara_ambiente(){
 
     f_mensagem "Instalando atualizacoes..."
     f_instalador_python
-
-    # f_mensagem "Baixando atualizacoes de sistema..."
-    # f_update
     
     f_mensagem "Instalando git"
     f_instalador_git
@@ -172,6 +169,19 @@ f_executa_crawler(){
 
     f_mensagem "Fim do processo de Crawler"
     f_fim
+
+}
+
+f_executa_analise(){
+
+    . ~/git/caseoncase/venv/bin/activate
+
+    f_mensagem "Executando chamada do python que realiza a geração dos gráficos."
+    cd ~/git/caseoncase/caseOncase/analise/
+
+    ~/git/caseoncase/venv/bin/python3.7
+
+
 
 }
 
