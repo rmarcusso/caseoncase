@@ -128,12 +128,12 @@ f_clone_crawler(){
 
 }
 
-f_instalacao_scrapy(){
+f_instalacao_libs(){
     local=rc
-    ~/git/caseoncase/venv/bin/python3.7 -m pip install scrapy
+    ~/git/caseoncase/venv/bin/python3.7 -m pip install -r requirements.txt
     rc=${?}
     if [[ ${rc} -ne 0 ]]; then
-        f_exit "Problema na instalacao do scrapy"
+        f_exit "Problema na instalacao das libs necessárias"
     fi
 }
 
@@ -156,7 +156,7 @@ f_prepara_ambiente(){
     f_criando_venv
 
     f_mensagem "Instalacao do Scrapy para executar o projeto."
-    f_instalacao_scrapy
+    f_instalacao_libs
 
     f_mensagem "Ambiente preparado"    
     f_fim
