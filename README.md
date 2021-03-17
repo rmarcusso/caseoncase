@@ -2,7 +2,7 @@
 ### Projeto que visa realizar um crawler de uma página de notícias. Foi usado a página [Aos Fatos](https://www.aosfatos.org)
 
 Processo de deploy e preparação do ambiente numa máquina Linux com Ubuntu.
-### Fazendo o deploy numa máquina Linux (distro Ubuntu) e a captura dos dados.
+### Fazendo o deploy numa máquina Linux (distro Ubuntu 16.04 LTS) e a captura dos dados.
 ##### Dentro deste repositório temos o arquivo `deploy.sh` ele é responsável em fazer toda a preparação do ambiente na `/home` do usuário.
 
 Ele será responsável em:
@@ -22,5 +22,3 @@ Durante a execução do `deploy.sh`ele também:
 
 # Problemas comuns
 ### Caso haja algum problema de instalação, reexecute o `deploy.sh`.
-
-
