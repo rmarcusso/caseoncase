@@ -4,9 +4,9 @@ from pathlib import Path
 
 class Analise(object):
     def __init__(self):
-        self.arquivoDadosJson = f'{Path(__file__).parent.parent}\\arquivos\\dados.json'
-        self.arquivoDadosCSV = f'{Path(__file__).parent.parent}\\arquivos\\dados.csv'
-        self.dirChart = f'{Path(__file__).parent.parent}\\graficos'
+        self.arquivoDadosJson = f'{Path(__file__).parent.parent}/arquivos/dados.json'
+        self.arquivoDadosCSV = f'{Path(__file__).parent.parent}/arquivos/dados.csv'
+        self.dirChart = f'{Path(__file__).parent.parent}/graficos'
 
     def convertToDataFrame(self):
         dfJson = pd.read_json(self.arquivoDadosJson)
@@ -31,7 +31,7 @@ class Analise(object):
         plt.xlabel('Status')
         plt.ylabel('Quantidade')
         plt.subplots_adjust(bottom=0.2)
-        plt.savefig(f'{self.dirChart}\\statusComentario.png', dpi=200)
+        plt.savefig(f'{self.dirChart}/statusComentario.png', dpi=200)
         plt.close()
 
     def analiseEvolution(self, arquivo):
@@ -60,7 +60,7 @@ class Analise(object):
         plt.title('Quantidade de noticias postadas ao ano')
         plt.xlabel('Anos')
         plt.ylabel('Quantidade')
-        plt.savefig(f'{self.dirChart}\\quantidadeNoticiaAno.png', dpi=200)
+        plt.savefig(f'{self.dirChart}/quantidadeNoticiaAno.png', dpi=200)
         plt.close()
         # plt.show()
 
@@ -115,7 +115,7 @@ class Analise(object):
             plt.xlabel('Meses')
             plt.ylabel('Quantidade')
             plt.subplots_adjust(bottom=0.2)
-            plt.savefig(f'{self.dirChart}\\quantidadeNoticiaEm_{i}.png', dpi=200)
+            plt.savefig(f'{self.dirChart}/quantidadeNoticiaEm_{i}.png', dpi=200)
             plt.close()
 
     def executar(self):
